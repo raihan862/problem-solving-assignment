@@ -48,7 +48,7 @@ function brickCalculator(height=0){
 
     if(height > 0 ){
         if(height <= 10){
-            return height * 15;
+            return height * 15 *1000;
         }
         else{
             totalBricks += 10 * 15;
@@ -61,7 +61,7 @@ function brickCalculator(height=0){
         if(height <= 20){
 
             totalBricks += temp*12;
-            return totalBricks;
+            return totalBricks*1000;
         }
 
         else{
@@ -74,7 +74,7 @@ function brickCalculator(height=0){
     if(height > 20){
 
         totalBricks += temp*10;
-        return totalBricks;
+        return totalBricks*1000;
 
     }
 }
@@ -112,4 +112,9 @@ function tinyFriend(friendList=[]) {
 
  
  
- 
+ console.log(feetToMile(8000));
+ console.log(woodCalculator(10,10,2))
+
+ console.log(brickCalculator(27))
+
+ console.log(tinyFriend(['helo','po']))

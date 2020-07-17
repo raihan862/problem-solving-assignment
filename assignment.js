@@ -109,12 +109,3 @@ function tinyFriend(friendList=[]) {
 
     return tiny;
 }
-
- 
- 
- console.log(feetToMile(8000));
- console.log(woodCalculator(10,10,2))
-
- console.log(brickCalculator(27))
-
- console.log(tinyFriend(['helo','po']))

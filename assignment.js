@@ -112,4 +112,4 @@ function tinyFriend(friendList=[]) {
 
  
  
-console.log(tinyFriend(['']))
+ 
